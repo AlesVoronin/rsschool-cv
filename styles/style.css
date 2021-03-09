@@ -70,10 +70,11 @@ ul {
 .english p{
     font-size: 30pt;
 }
-.name p{
+.name h1{
     font-family: "Brush Script MT";
     font-size: 80pt;
     margin: 0;
+    color: #546747;
 }
 .line{
     margin: 0 0;
@@ -106,4 +107,19 @@ footer p{
     justify-content: center;
     margin-right: 20px;
     margin-left: 20px;
+}
+.skills-list{
+    margin: auto;
+    max-width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-evenly;
+}
+.skills-list p{
+    background-color: #bbc8ba;
+    border-radius: 4px;
+    padding: 0.25em;
+    margin: 0.25em;
 }
